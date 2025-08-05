@@ -1,0 +1,2045 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulado FGV com Feedback e Pontuação</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background-color: #f6f6f6; }
+    .questao-container { display: none; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .questao-container.active { display: block; }
+    .numero { font-weight: bold; color: #005999; margin-bottom: 10px; }
+    .alternativa { margin: 8px 0; padding: 5px; border-radius: 4px; }
+    .alternativa.certa { background-color: #d4edda; }
+    .alternativa.errada { background-color: #f8d7da; }
+    .botoes { margin-top: 20px; }
+    button { padding: 10px 15px; margin-right: 10px; cursor: pointer; }
+    #resultado { margin-top: 30px; font-size: 18px; font-weight: bold; color: #005999; }
+  </style>
+</head>
+<body>
+
+<h1>Simulado FGV com Feedback Imediato + Pontuação Final</h1>
+<div id="questoes">
+
+    <div class="questao-container" id="questao-0" data-gabarito="E">
+      <div class="numero">Questão 1</div>
+      <p>Um grupo de secretárias de uma organização que de-<br>pende da mesma dotação orçamentária de escritório co-<br>meçou a barganhar entre si para saber quem iria adquirir <br>novos equipamentos de informática e quem teria de con-<br>tinuar com o equipamento existente. Na decisão de quais <br>interesses conflitantes seriam satisfeitos, as secretárias <br>consideraram que os interesses do grupo são importan-<br>tes, mas não merecem a desordem provocada por estilos <br>mais assertivos. <br>Assim sendo, as secretárias optaram pela abordagem da <br>transigência na negociação, que</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q0" value="A" id="q0a" onclick="verificarResposta(0, 'A')">
+          <label for="q0a">A) promove os interesses de um membro do grupo à cus-
+ta dos interesses dos outros, muitas vezes pelo recur-
+so à autoridade.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q0" value="B" id="q0b" onclick="verificarResposta(0, 'B')">
+          <label for="q0b">B) permite que as outras partes satisfaçam seus interes-
+ses à custa dos interesses de um membro do grupo.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q0" value="C" id="q0c" onclick="verificarResposta(0, 'C')">
+          <label for="q0c">C) requer a permanência dos membros do grupo na neu-
+tralidade a todo custo ou a sua recusa em assumir um 
+papel ativo nos procedimentos de resolução do conflito.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q0" value="D" id="q0d" onclick="verificarResposta(0, 'D')">
+          <label for="q0d">D) tenta satisfazer a todos mediante a consideração das 
+diferenças e a busca de solução que resulte em ganho 
+para todos os interessados.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q0" value="E" id="q0e" onclick="verificarResposta(0, 'E')">
+          <label for="q0e">E) procura a satisfação parcial de todos mediante a troca 
+e o sacrifício, decidindo mais pela resolução aceitável 
+do que pela resolução ótima.</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-1" data-gabarito="C">
+      <div class="numero">Questão 2</div>
+      <p>Uma empresa pública da área de desenvolvimento e ino-<br>vação decidiu utilizar em seu planejamento a ferramenta <br>para aumentar o foco e o engajamento através de objeti-<br>vos e resultado-chave (OKR, na sigla em inglês) que re-<br>presentam os resultados mais importantes para o negócio <br>e para os clientes. <br>Nesse sentido, é relevante para toda a organização, po-<br>rém monitorado pelo time de gestão de pessoas, o se-<br>guinte OKR:</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q1" value="A" id="q1a" onclick="verificarResposta(1, 'A')">
+          <label for="q1a">A) ampliar a interação com setor produtivo para supe-
+ração de barreiras técnicas; aumento do número de 
+demandas do setor produtivo.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q1" value="B" id="q1b" onclick="verificarResposta(1, 'B')">
+          <label for="q1b">B) aprimorar a gestão e governança com foco em políti-
+cas públicas; percentual de elaboração do orçamento 
+participativo.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q1" value="C" id="q1c" onclick="verificarResposta(1, 'C')">
+          <label for="q1c">C) estruturar relacionamento com setor produtivo para 
+pesquisa e desenvolvimento; aumento da captação 
+de recursos para projetos de extensão tecnológica.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q1" value="D" id="q1d" onclick="verificarResposta(1, 'D')">
+          <label for="q1d">D) promover soluções para apoio à economia verde e 
+descarbonização; quantidade de soluções entregues 
+sobre quantidade das consultas.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q1" value="E" id="q1e" onclick="verificarResposta(1, 'E')">
+          <label for="q1e">E) tornar a autarquia mais atrativa para captar e reter 
+servidores; relação entre quantidade de entradas de 
+servidores versus saídas da autarquia.</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-2" data-gabarito="A">
+      <div class="numero">Questão 3</div>
+      <p>O sucesso de um programa de segurança está diretamen-<br>te relacionado a sua estruturação em comitês formados <br>por especialistas, trabalhadores e gestores, com as finali-<br>dades de investigar os riscos e definir políticas e normas <br>de segurança. Para cumprir tais finalidades, é necessário <br>reconhecer que fatores como o trabalho em si, as condi-<br>ções de trabalho e a natureza do trabalhador influenciam <br>na segurança e na saúde de trabalhadores. <br>A esse respeito, fatores relacionados à natureza da pes-<br>soa trabalhadora estão exemplificados a seguir:</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q2" value="A" id="q2a" onclick="verificarResposta(2, 'A')">
+          <label for="q2a">A) manejo de substâncias tóxicas, contaminantes ou in-
+flamáveis</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q2" value="B" id="q2b" onclick="verificarResposta(2, 'B')">
+          <label for="q2b">B) carência de equipamentos de proteção e/ou falhas de 
+sinalização</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q2" value="C" id="q2c" onclick="verificarResposta(2, 'C')">
+          <label for="q2c">C) impulsividade, agressividades e dificuldade psicomo-
+tora ou perceptiva</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q2" value="D" id="q2d" onclick="verificarResposta(2, 'D')">
+          <label for="q2d">D) jornadas extensas, ruídos elevados ou iluminação ina-
+dequada</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q2" value="E" id="q2e" onclick="verificarResposta(2, 'E')">
+          <label for="q2e">E) máquinas mal projetadas ou equipamentos malcon-
+servados</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-3" data-gabarito="B">
+      <div class="numero">Questão 4</div>
+      <p>O fenômeno da liderança nas organizações é multidimen-<br>sional e multifacetado, havendo diferenças entre as vá-<br>rias definições. Em determinada situação de trabalho, por <br>exemplo, pode ocorrer de um líder constantemente pautar <br>sua ação em elevar o seu moral, a motivação e o moral <br>dos seus seguidores, em detrimento dos próprios interes-<br>ses (seus e dos seguidores) para o bem da organização, <br>dando atenção e aconselhamento individual, construindo <br>uma resolução conjunta de problemas e tomada de deci-<br>são. <br>O exemplo acima descreve uma liderança do tipo</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q3" value="A" id="q3a" onclick="verificarResposta(3, 'A')">
+          <label for="q3a">A) transformacional</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q3" value="B" id="q3b" onclick="verificarResposta(3, 'B')">
+          <label for="q3b">B) transacional</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q3" value="C" id="q3c" onclick="verificarResposta(3, 'C')">
+          <label for="q3c">C) carismática</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q3" value="D" id="q3d" onclick="verificarResposta(3, 'D')">
+          <label for="q3d">D) autocrática</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q3" value="E" id="q3e" onclick="verificarResposta(3, 'E')">
+          <label for="q3e">E) liberal</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-4" data-gabarito="C">
+      <div class="numero">Questão 5</div>
+      <p>Um ministério decidiu capacitar seus colaboradores por <br>meio de trilhas de conhecimento. No ambiente virtual de <br>aprendizagem foram organizados tematicamente textos, <br>vídeos e podcasts, em uma sequência de passos estrutu-<br>rados a serem seguidos pelo colaborador. Após o estudo <br>do material, o participante responde a questões autoadmi-<br>nistráveis e recebe feedback imediato de forma a permitir <br>a reavaliação do aprendizado. <br>A estratégia de capacitação desenvolvida pela empresa <br>baseia-se na noção de</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q4" value="A" id="q4a" onclick="verificarResposta(4, 'A')">
+          <label for="q4a">A) dinâmica de grupo</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q4" value="B" id="q4b" onclick="verificarResposta(4, 'B')">
+          <label for="q4b">B) instrução programada</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q4" value="C" id="q4c" onclick="verificarResposta(4, 'C')">
+          <label for="q4c">C) mentoria e orientação</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q4" value="D" id="q4d" onclick="verificarResposta(4, 'D')">
+          <label for="q4d">D) oficina de trabalho</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q4" value="E" id="q4e" onclick="verificarResposta(4, 'E')">
+          <label for="q4e">E) rotação de trabalho
+pcimarkpci MjgwNDowMTRjOjAxMWI6ODI2ZDpjNmRhOmFkZTA6YWEwNzpmN2Qy:TW9uLCAwNCBBdWcgMjAyNSAxODozODoxMyAtMDMwMA==
+www.pciconcursos.com.br</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-5" data-gabarito="D">
+      <div class="numero">Questão 6</div>
+      <p>Uma determinada autarquia federal publicou recente-<br>mente seu plano estratégico e se apresenta como tendo <br>a finalidade máxima de “Viabilizar soluções de infraestru-<br>tura da qualidade que adicionem conﬁança, qualidade e <br>competitividade aos produtos e serviços disponibilizados <br>pelas organizações brasileiras, em prol da prosperidade <br>econômica e bem-estar da nossa sociedade”. <br>A apresentação da autarquia sustenta-se no conceito de</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q5" value="A" id="q5a" onclick="verificarResposta(5, 'A')">
+          <label for="q5a">A) análise de cenário</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q5" value="B" id="q5b" onclick="verificarResposta(5, 'B')">
+          <label for="q5b">B) indicador de desempenho</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q5" value="C" id="q5c" onclick="verificarResposta(5, 'C')">
+          <label for="q5c">C) missão organizacional</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q5" value="D" id="q5d" onclick="verificarResposta(5, 'D')">
+          <label for="q5d">D) objetivos estratégicos</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q5" value="E" id="q5e" onclick="verificarResposta(5, 'E')">
+          <label for="q5e">E) visão de futuro</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-6" data-gabarito="D">
+      <div class="numero">Questão 7</div>
+      <p>O exercício da liderança no serviço público requer o de-<br>senvolvimento de competências particulares. Dentre elas, <br>destaca-se a competência de reconhecer a organização <br>pública como uma arena de disputas entre visões de mun-<br>do em que coexiste uma multiplicidade de interesses le-<br>gítimos e, por vezes, conflitantes. As organizações lidam <br>com horizontes temporais, multiplicidade de atores, inte-<br>resses e relações desde a esfera da equipe de trabalho <br>até as interações com outras organizações e a sociedade. <br>Segundo a descrição, a liderança em organizações públi-<br>cas requer o desenvolvimento de competência</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q6" value="A" id="q6a" onclick="verificarResposta(6, 'A')">
+          <label for="q6a">A) de mobilização de equipe</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q6" value="B" id="q6b" onclick="verificarResposta(6, 'B')">
+          <label for="q6b">B) de tomada de decisão</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q6" value="C" id="q6c" onclick="verificarResposta(6, 'C')">
+          <label for="q6c">C) para inovação</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q6" value="D" id="q6d" onclick="verificarResposta(6, 'D')">
+          <label for="q6d">D) político-gerencial</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q6" value="E" id="q6e" onclick="verificarResposta(6, 'E')">
+          <label for="q6e">E) técnico-funcional</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-7" data-gabarito="A">
+      <div class="numero">Questão 8</div>
+      <p>A avaliação da maturidade de processos de negócio con-<br>siste na identificação de como os processos de uma orga-<br>nização estão sendo definidos, administrados, medidos, <br>controlados e otimizados, para comparar essas informa-<br>ções com as melhores práticas definidas em modelos de <br>referência reconhecidos no mercado.<br>Ao realizar essa avaliação, o principal objetivo de uma or-<br>ganização é</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q7" value="A" id="q7a" onclick="verificarResposta(7, 'A')">
+          <label for="q7a">A) ajudar no desenho da cadeia de valor da organização.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q7" value="B" id="q7b" onclick="verificarResposta(7, 'B')">
+          <label for="q7b">B) assegurar que os processos de negócio se mante-
+nham permanentemente alinhados à estratégia orga-
+nizacional e ao foco do cliente.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q7" value="C" id="q7c" onclick="verificarResposta(7, 'C')">
+          <label for="q7c">C) definir qual é a melhor ferramenta de gerenciamento 
+de processos disponibilizada no mercado.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q7" value="D" id="q7d" onclick="verificarResposta(7, 'D')">
+          <label for="q7d">D) identificar as lacunas para suportar a criação de pla-
+nos de ação para aumentar a maturidade processual 
+da organização.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q7" value="E" id="q7e" onclick="verificarResposta(7, 'E')">
+          <label for="q7e">E) saber se os modelos de referência no mercado podem 
+ser implementados sem a necessidade de mapear os 
+processos atuais.</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-8" data-gabarito="C">
+      <div class="numero">Questão 9</div>
+      <p>Considere um gerente de projetos responsável por co-<br>ordenar a implantação de um novo sistema de vendas <br>on-line de uma organização. O nível executivo da empre-<br>sa enfatizou a importância de o projeto ser finalizado no <br>prazo previsto, contudo o gerente de projetos tem enfren-<br>tado dificuldades no gerenciamento do tempo, visto que <br>há atividades que não foram ainda finalizadas segundo a <br>linha de base do cronograma. Uma solução de contorno <br>para essa situação seria a alocação, na equipe de projeto, <br>de dois profissionais experientes da área de tecnologia <br>da informação da empresa, porém o gerente da área tec-<br>nológica não autorizou a transferência dos profissionais <br>do seu time para a equipe do projeto. Outra dificuldade <br>surgida relaciona-se à necessidade da aquisição de dois <br>equipamentos de comunicação de dados que estavam <br>fora da linha de base de custos do projeto, e o gerente de <br>projetos não possui autonomia na gestão financeira para <br>fazer essas novas aquisições diretamente.<br>Considerando-se o cenário descrito, é provável que esse <br>projeto esteja inserido em uma organização com a estru-<br>tura organizacional</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q8" value="A" id="q8a" onclick="verificarResposta(8, 'A')">
+          <label for="q8a">A) funcional</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q8" value="B" id="q8b" onclick="verificarResposta(8, 'B')">
+          <label for="q8b">B) horizontal</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q8" value="C" id="q8c" onclick="verificarResposta(8, 'C')">
+          <label for="q8c">C) matricial forte</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q8" value="D" id="q8d" onclick="verificarResposta(8, 'D')">
+          <label for="q8d">D) orientada a projetos</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q8" value="E" id="q8e" onclick="verificarResposta(8, 'E')">
+          <label for="q8e">E) orientada a cronograma
+RASCUNHO
+pcimarkpci MjgwNDowMTRjOjAxMWI6ODI2ZDpjNmRhOmFkZTA6YWEwNzpmN2Qy:TW9uLCAwNCBBdWcgMjAyNSAxODozODoxMyAtMDMwMA==
+www.pciconcursos.com.br</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-9" data-gabarito="C">
+      <div class="numero">Questão 10</div>
+      <p>Considere um projeto que tem como objetivo implantar <br>um novo módulo no sistema de automação industrial de <br>uma empresa de veículos. A duração de tempo planeja-<br>da para o projeto é de quinze meses e o cumprimento <br>desse prazo sem atrasos é uma premissa estabelecida <br>pelo nível executivo alinhada à estratégia de negócio da <br>empresa. Uma das atividades programadas para o último <br>final de semana não foi concluída, visto que havia tarefas <br>a serem realizadas em um pátio externo da planta indus-<br>trial da empresa e uma forte tempestade ocorreu por todo <br>o período programado, gerando alagamento na área em <br>que o trabalho estava ocorrendo. Além da não execução <br>da atividade, alguns equipamentos sofreram danos sem <br>possibilidade de recuperação. Não houve, no gerencia-<br>mento desse projeto, o desenvolvimento de um plano de <br>resposta aos riscos.<br>Suponha que esse projeto tivesse sido gerenciado se-<br>gundo as melhores práticas do PMBOK, as quais reco-<br>mendam o desenvolvimento de um plano de resposta aos <br>riscos, e que o evento ocorrido tivesse sido mapeado, <br>sendo o seu impacto no cronograma do projeto avaliado <br>devidamente. <br>Nesse caso, qual ação de resposta poderia ter sido es-<br>pecificada para esse projeto, caso fosse escolhida uma <br>estratégia de mitigação de risco?</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q9" value="A" id="q9a" onclick="verificarResposta(9, 'A')">
+          <label for="q9a">A) Aquisição de um seguro para cobrir possíveis danos 
+nos equipamentos.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q9" value="B" id="q9b" onclick="verificarResposta(9, 'B')">
+          <label for="q9b">B) Criação de um fundo de reservas financeiras para co-
+brir possíveis danos nos equipamentos.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q9" value="C" id="q9c" onclick="verificarResposta(9, 'C')">
+          <label for="q9c">C) Monitoramento das condições climáticas para o perío-
+do de execução da atividade e execução de um plano 
+de contingência para construção de uma cobertura 
+temporária no pátio externo com proteção contra chu-
+vas e alagamento, caso fosse necessário.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q9" value="D" id="q9d" onclick="verificarResposta(9, 'D')">
+          <label for="q9d">D) Programação da atividade em datas com menor pro-
+babilidade de chuvas e tempestades, dependendo 
+das informações meteorológicas monitoradas ao lon-
+go do período de execução do projeto.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q9" value="E" id="q9e" onclick="verificarResposta(9, 'E')">
+          <label for="q9e">E) Renegociação do orçamento planejado com o patroci-
+nador do projeto.
+EIXO 2</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-10" data-gabarito="E">
+      <div class="numero">Questão 11</div>
+      <p>Por ser um processo sistemático para identificar, avaliar, <br>monitorar e responder aos gargalos que reduzem as chan-<br>ces de alcance dos objetivos estratégicos de determinada <br>ação política, a gestão de riscos é fundamental para a</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q10" value="A" id="q10a" onclick="verificarResposta(10, 'A')">
+          <label for="q10a">A) ampliação das políticas públicas e da burocracia estatal</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q10" value="B" id="q10b" onclick="verificarResposta(10, 'B')">
+          <label for="q10b">B) formação de stakeholders e lideranças comunitárias</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q10" value="C" id="q10c" onclick="verificarResposta(10, 'C')">
+          <label for="q10c">C) gestão governamental e a governança pública</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q10" value="D" id="q10d" onclick="verificarResposta(10, 'D')">
+          <label for="q10d">D) informatização das Prefeituras e dos comitês populares</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q10" value="E" id="q10e" onclick="verificarResposta(10, 'E')">
+          <label for="q10e">E) qualificação dos eleitores e formadores de opinião</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-11" data-gabarito="C">
+      <div class="numero">Questão 12</div>
+      <p>O Sistema de Organização e Inovação Institucional do <br>Governo Federal (Siorg) é um composto estruturante do <br>Governo Federal, responsável por fornecer as estruturas <br>dos órgãos da Administração Federal, sendo referência <br>na tabela de unidades organizacionais para os outros sis-<br>temas estruturantes. <br>Compete às unidades setoriais e seccionais do Siorg</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q11" value="A" id="q11a" onclick="verificarResposta(11, 'A')">
+          <label for="q11a">A) definir, padronizar, sistematizar e estabelecer os pro-
+cedimentos inerentes às atividades de organização e 
+inovação institucional, por meio da edição de enuncia-
+dos e de instruções.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q11" value="B" id="q11b" onclick="verificarResposta(11, 'B')">
+          <label for="q11b">B) estabelecer fluxos de informação entre as unidades 
+integrantes do Siorg e os demais sistemas de ativida-
+des auxiliares, com vistas a subsidiar os processos de 
+decisão e a coordenação das atividades governamen-
+tais.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q11" value="C" id="q11c" onclick="verificarResposta(11, 'C')">
+          <label for="q11c">C) administrar o cadastro de órgãos e de entidades.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q11" value="D" id="q11d" onclick="verificarResposta(11, 'D')">
+          <label for="q11d">D) promover estudos e propor a criação, a fusão, a reor-
+ganização, a transferência e a extinção de órgãos e 
+de entidades.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q11" value="E" id="q11e" onclick="verificarResposta(11, 'E')">
+          <label for="q11e">E) desenvolver padrões de qualidade e funcionalidade 
+destinados à melhoria do desempenho dos trabalhos 
+e dos serviços prestados.</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-12" data-gabarito="E">
+      <div class="numero">Questão 13</div>
+      <p>As atividades de tombamento, registro, guarda, contro-<br>le, movimentação, preservação, baixa, incorporação são <br>exemplos de atividades que compõem a gestão</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q12" value="A" id="q12a" onclick="verificarResposta(12, 'A')">
+          <label for="q12a">A) financeira</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q12" value="B" id="q12b" onclick="verificarResposta(12, 'B')">
+          <label for="q12b">B) contábil</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q12" value="C" id="q12c" onclick="verificarResposta(12, 'C')">
+          <label for="q12c">C) patrimonial</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q12" value="D" id="q12d" onclick="verificarResposta(12, 'D')">
+          <label for="q12d">D) cultural</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q12" value="E" id="q12e" onclick="verificarResposta(12, 'E')">
+          <label for="q12e">E) trabalhista</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-13" data-gabarito="C">
+      <div class="numero">Questão 14</div>
+      <p>Em relação aos bens imobiliários da Administração Públi-<br>ca, um se destaca como correspondendo a áreas que não <br>podem ser habitadas pelo homem, sendo admitido ape-<br>nas o uso indireto de seus recursos naturais, como, por <br>exemplo, em atividades de pesquisa científica e turismo <br>ecológico. Tais áreas serão necessariamente de domínio <br>público (federal, estadual ou municipal, conforme o caso).<br>Essa categoria de patrimônio imobiliário refere-se a</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q13" value="A" id="q13a" onclick="verificarResposta(13, 'A')">
+          <label for="q13a">A) ilhas</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q13" value="B" id="q13b" onclick="verificarResposta(13, 'B')">
+          <label for="q13b">B) terrenos de marinha</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q13" value="C" id="q13c" onclick="verificarResposta(13, 'C')">
+          <label for="q13c">C) margens de rios</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q13" value="D" id="q13d" onclick="verificarResposta(13, 'D')">
+          <label for="q13d">D) terras indígenas</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q13" value="E" id="q13e" onclick="verificarResposta(13, 'E')">
+          <label for="q13e">E) unidades de conservação
+RASCUNHO
+pcimarkpci MjgwNDowMTRjOjAxMWI6ODI2ZDpjNmRhOmFkZTA6YWEwNzpmN2Qy:TW9uLCAwNCBBdWcgMjAyNSAxODozODoxMyAtMDMwMA==
+www.pciconcursos.com.br</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-14" data-gabarito="E">
+      <div class="numero">Questão 15</div>
+      <p>Qual é o principal aspecto da tecnologia de blockchain <br>aplicada à logística?</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q14" value="A" id="q14a" onclick="verificarResposta(14, 'A')">
+          <label for="q14a">A) Diminuição da importância da segurança de dados</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q14" value="B" id="q14b" onclick="verificarResposta(14, 'B')">
+          <label for="q14b">B) Aumento da complexidade nas transações comerciais</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q14" value="C" id="q14c" onclick="verificarResposta(14, 'C')">
+          <label for="q14c">C) Transparência e segurança aprimoradas nas transa-
+ções</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q14" value="D" id="q14d" onclick="verificarResposta(14, 'D')">
+          <label for="q14d">D) Redução na velocidade de processamento de transa-
+ções</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q14" value="E" id="q14e" onclick="verificarResposta(14, 'E')">
+          <label for="q14e">E) Aumento da necessidade de intermediários no pro-
+cesso de verificação</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-15" data-gabarito="E">
+      <div class="numero">Questão 16</div>
+      <p>Qual é o principal objetivo do governo eletrônico (e-gov)?</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q15" value="A" id="q15a" onclick="verificarResposta(15, 'A')">
+          <label for="q15a">A) Reduzir a transparência governamental para aumen-
+tar a eficiência operacional.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q15" value="B" id="q15b" onclick="verificarResposta(15, 'B')">
+          <label for="q15b">B) Limitar o acesso dos cidadãos aos serviços públicos 
+para controlar a demanda.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q15" value="C" id="q15c" onclick="verificarResposta(15, 'C')">
+          <label for="q15c">C) Diminuir a comunicação entre diferentes setores do 
+governo.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q15" value="D" id="q15d" onclick="verificarResposta(15, 'D')">
+          <label for="q15d">D) Aumentar a complexidade dos processos governa-
+mentais para melhorar a segurança.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q15" value="E" id="q15e" onclick="verificarResposta(15, 'E')">
+          <label for="q15e">E) Promover a inclusão digital e a participação cidadã por 
+meio da tecnologia.</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-16" data-gabarito="C">
+      <div class="numero">Questão 17</div>
+      <p>Um estaleiro público está enfrentando um incremento de <br>demanda por novas unidades, acarretando altos custos <br>de estoques no processo de fabricação. <br>Qual estratégia o gerente de estoques desse estaleiro po-<br>deria adotar para otimizar o controle de estoque?</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q16" value="A" id="q16a" onclick="verificarResposta(16, 'A')">
+          <label for="q16a">A) Compra antecipada de grandes quantidades</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q16" value="B" id="q16b" onclick="verificarResposta(16, 'B')">
+          <label for="q16b">B) Implementação de um sistema de inventário periódico</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q16" value="C" id="q16c" onclick="verificarResposta(16, 'C')">
+          <label for="q16c">C) Centralização do estoque em um único local</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q16" value="D" id="q16d" onclick="verificarResposta(16, 'D')">
+          <label for="q16d">D) Eliminação de todas as formas de inventário</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q16" value="E" id="q16e" onclick="verificarResposta(16, 'E')">
+          <label for="q16e">E) Uso do sistema Just-In-Time (JIT)</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-17" data-gabarito="D">
+      <div class="numero">Questão 18</div>
+      <p>Como a legislação influencia a logística reversa?</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q17" value="A" id="q17a" onclick="verificarResposta(17, 'A')">
+          <label for="q17a">A) Limitando importações de difícil reciclagem.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q17" value="B" id="q17b" onclick="verificarResposta(17, 'B')">
+          <label for="q17b">B) Regulando o setor bancário, financeiro e de seguros.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q17" value="C" id="q17c" onclick="verificarResposta(17, 'C')">
+          <label for="q17c">C) Impondo regulamentações que exigem a participação 
+das empresas em programas de logística reversa.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q17" value="D" id="q17d" onclick="verificarResposta(17, 'D')">
+          <label for="q17d">D) Normatizando currículos e qualificação dos professores.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q17" value="E" id="q17e" onclick="verificarResposta(17, 'E')">
+          <label for="q17e">E) Encorajando a produção de embalagens de uso único 
+para facilitar o descarte.</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-18" data-gabarito="B">
+      <div class="numero">Questão 19</div>
+      <p>A Inteligência Artificial (IA) pode ser aplicada na gestão <br>pública para</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q18" value="A" id="q18a" onclick="verificarResposta(18, 'A')">
+          <label for="q18a">A) tomar decisões éticas complexas.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q18" value="B" id="q18b" onclick="verificarResposta(18, 'B')">
+          <label for="q18b">B) gerenciar relações humanas e comunicação empática.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q18" value="C" id="q18c" onclick="verificarResposta(18, 'C')">
+          <label for="q18c">C) resolver e mediar conflitos interpessoais.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q18" value="D" id="q18d" onclick="verificarResposta(18, 'D')">
+          <label for="q18d">D) otimizar a alocação de recursos e a previsão de de-
+mandas de serviços.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q18" value="E" id="q18e" onclick="verificarResposta(18, 'E')">
+          <label for="q18e">E) avaliar de forma subjetiva a educação e os serviços 
+personalizados.</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-19" data-gabarito="E">
+      <div class="numero">Questão 20</div>
+      <p>Em resposta a uma série de desastres naturais que atin-<br>giram o norte do Brasil, uma ONG internacional especiali-<br>zada em logística humanitária mobilizou uma operação de <br>emergência para fornecer ajuda imediata às comunidades <br>afetadas, adotando uma abordagem sistemática. <br>Qual foi o primeiro passo crítico tomado pela ONG na ges-<br>tão de riscos do projeto?</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q19" value="A" id="q19a" onclick="verificarResposta(19, 'A')">
+          <label for="q19a">A) Análise financeira</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q19" value="B" id="q19b" onclick="verificarResposta(19, 'B')">
+          <label for="q19b">B) Identificação de riscos</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q19" value="C" id="q19c" onclick="verificarResposta(19, 'C')">
+          <label for="q19c">C) Aquisição de seguros</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q19" value="D" id="q19d" onclick="verificarResposta(19, 'D')">
+          <label for="q19d">D) Treinamento da equipe</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q19" value="E" id="q19e" onclick="verificarResposta(19, 'E')">
+          <label for="q19e">E) Revisão de medidas tomadas em desastres seme-
+lhantes
+EIXO 3</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-20" data-gabarito="C">
+      <div class="numero">Questão 21</div>
+      <p>Seja uma população normalmente distribuída com média <br>m e variância s2. Um estimador para o parâmetro m é de-<br>finido como  <br>T<br>X<br>X<br>X<br>X</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q20" value="A" id="q20a" onclick="verificarResposta(20, 'A')">
+          <label for="q20a">A) nan</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q20" value="B" id="q20b" onclick="verificarResposta(20, 'B')">
+          <label for="q20b">B) nan</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q20" value="C" id="q20c" onclick="verificarResposta(20, 'C')">
+          <label for="q20c">C) nan</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q20" value="D" id="q20d" onclick="verificarResposta(20, 'D')">
+          <label for="q20d">D) nan</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q20" value="E" id="q20e" onclick="verificarResposta(20, 'E')">
+          <label for="q20e">E) nan</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-21" data-gabarito="D">
+      <div class="numero">Questão 10</div>
+      <p>Sobre o estimador T, conclui-se que</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q21" value="A" id="q21a" onclick="verificarResposta(21, 'A')">
+          <label for="q21a">A) T é não tendencioso e de variância mínima.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q21" value="B" id="q21b" onclick="verificarResposta(21, 'B')">
+          <label for="q21b">B) T é tendencioso com variância s2.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q21" value="C" id="q21c" onclick="verificarResposta(21, 'C')">
+          <label for="q21c">C) T tem distribuição normal com média m e variância</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q21" value="D" id="q21d" onclick="verificarResposta(21, 'D')">
+          <label for="q21d">D) nan</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q21" value="E" id="q21e" onclick="verificarResposta(21, 'E')">
+          <label for="q21e">E) nan</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-22" data-gabarito="A">
+      <div class="numero">Questão 22</div>
+      <p>Políticas públicas regulatórias visam a</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q22" value="A" id="q22a" onclick="verificarResposta(22, 'A')">
+          <label for="q22a">A) gerar benefícios concentrados para alguns grupos de 
+atores e custos difusos para todos os contribuintes.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q22" value="B" id="q22b" onclick="verificarResposta(22, 'B')">
+          <label for="q22b">B) conceder benefícios concentrados a algumas cate-
+gorias de atores e custos concentrados sobre outras 
+categorias de atores.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q22" value="C" id="q22c" onclick="verificarResposta(22, 'C')">
+          <label for="q22c">C) estabelecer padrões de comportamento, serviço ou 
+produto para atores públicos e privados.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q22" value="D" id="q22d" onclick="verificarResposta(22, 'D')">
+          <label for="q22d">D) definir competências, jurisdições, regras das disputas 
+políticas e da elaboração de políticas públicas.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q22" value="E" id="q22e" onclick="verificarResposta(22, 'E')">
+          <label for="q22e">E) distribuir competências entre poderes e esferas.</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-23" data-gabarito="B">
+      <div class="numero">Questão 23</div>
+      <p>Contemporaneamente, há diferentes teorias e modelos <br>na análise de políticas públicas.<br>Na teoria dos múltiplos fluxos, para que ideias, durante <br>o segundo fluxo, sobrevivam, alguns fatores devem ser <br>preservados. <br>Nesse contexto, NÃO pode haver</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q23" value="A" id="q23a" onclick="verificarResposta(23, 'A')">
+          <label for="q23a">A) custos toleráveis</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q23" value="B" id="q23b" onclick="verificarResposta(23, 'B')">
+          <label for="q23b">B) viabilidade técnica</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q23" value="C" id="q23c" onclick="verificarResposta(23, 'C')">
+          <label for="q23c">C) aceitação do público em geral</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q23" value="D" id="q23d" onclick="verificarResposta(23, 'D')">
+          <label for="q23d">D) mudança na composição do Congresso</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q23" value="E" id="q23e" onclick="verificarResposta(23, 'E')">
+          <label for="q23e">E) receptividade por parte dos tomadores de decisão</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-24" data-gabarito="A">
+      <div class="numero">Questão 24</div>
+      <p>As Políticas Públicas Simbólicas são aquelas em que os <br>formuladores de políticas públicas</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q24" value="A" id="q24a" onclick="verificarResposta(24, 'A')">
+          <label for="q24a">A) possuem condições de elaborá-las, mas intimamente 
+não demonstram grande interesse em colocá-las em 
+prática.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q24" value="B" id="q24b" onclick="verificarResposta(24, 'B')">
+          <label for="q24b">B) têm interesse em ver a sua política funcionando, po-
+rém não têm conhecimento para estruturá-la adequa-
+damente.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q24" value="C" id="q24c" onclick="verificarResposta(24, 'C')">
+          <label for="q24c">C) não possuem conhecimento específico sobre o pro-
+blema, o que as torna vazias de intenções políticas 
+genuínas.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q24" value="D" id="q24d" onclick="verificarResposta(24, 'D')">
+          <label for="q24d">D) incorporam a intenção de resolver um problema públi-
+co e possuem conhecimento para resolvê-lo.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q24" value="E" id="q24e" onclick="verificarResposta(24, 'E')">
+          <label for="q24e">E) operam com baixa utilização de recursos públicos, em 
+especial, o financeiro.</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-25" data-gabarito="D">
+      <div class="numero">Questão 25</div>
+      <p>Existe um modelo de tomada de decisão em que as con-<br>dições cognitivas são de certeza. O exame das alternati-<br>vas é feito a partir de uma análise completa e cálculos de <br>consequências. A modalidade de escolha é o cálculo, e o <br>critério de decisão é a otimização. <br>Essas características referem-se ao seguinte modelo:</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q25" value="A" id="q25a" onclick="verificarResposta(25, 'A')">
+          <label for="q25a">A) racionalidade limitada</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q25" value="B" id="q25b" onclick="verificarResposta(25, 'B')">
+          <label for="q25b">B) racionalidade absoluta</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q25" value="C" id="q25c" onclick="verificarResposta(25, 'C')">
+          <label for="q25c">C) modelo incremental</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q25" value="D" id="q25d" onclick="verificarResposta(25, 'D')">
+          <label for="q25d">D) modelo lata de lixo</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q25" value="E" id="q25e" onclick="verificarResposta(25, 'E')">
+          <label for="q25e">E) modelo fluxos múltiplos</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-26" data-gabarito="B">
+      <div class="numero">Questão 26</div>
+      <p>Há diversos atores que participam de uma política pública <br>ou a influenciam. Um subgrupo desses atores refere-se <br>aos atores sociais que se organizam coletivamente. <br>É um exemplo de atores coletivos organizados:</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q26" value="A" id="q26a" onclick="verificarResposta(26, 'A')">
+          <label for="q26a">A) usina de ideias</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q26" value="B" id="q26b" onclick="verificarResposta(26, 'B')">
+          <label for="q26b">B) legisladores</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q26" value="C" id="q26c" onclick="verificarResposta(26, 'C')">
+          <label for="q26c">C) gestores públicos nomeados</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q26" value="D" id="q26d" onclick="verificarResposta(26, 'D')">
+          <label for="q26d">D) membros do judiciário</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q26" value="E" id="q26e" onclick="verificarResposta(26, 'E')">
+          <label for="q26e">E) burocratas</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-27" data-gabarito="C">
+      <div class="numero">Questão 27</div>
+      <p>As ferramentas de políticas públicas se dividem em ferra-<br>mentas públicas e privadas.<br>Trata-se de um exemplo de ferramenta privada:</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q27" value="A" id="q27a" onclick="verificarResposta(27, 'A')">
+          <label for="q27a">A) informação</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q27" value="B" id="q27b" onclick="verificarResposta(27, 'B')">
+          <label for="q27b">B) incentivos econômicos</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q27" value="C" id="q27c" onclick="verificarResposta(27, 'C')">
+          <label for="q27c">C) regulamentos</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q27" value="D" id="q27d" onclick="verificarResposta(27, 'D')">
+          <label for="q27d">D) família</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q27" value="E" id="q27e" onclick="verificarResposta(27, 'E')">
+          <label for="q27e">E) desincentivos econômicos</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-28" data-gabarito="A">
+      <div class="numero">Questão 28</div>
+      <p>Uma equipe de pesquisadores em políticas públicas de <br>saúde laboral deseja estimar a proporção de indivíduos <br>de determinada população que estão sofrendo de proble-<br>mas relacionados a burnout. A estimação será feita utili-<br>zando técnicas de Inferência Estatística.<br>A equipe tem acesso a qualquer indivíduo dessa popula-<br>ção, mas tem capacidade para coletar os dados de ape-<br>nas uma parcela irrisória da população como um todo.<br>A composição e as características gerais dessa popula-<br>ção são totalmente desconhecidas.<br>Diante desse cenário, a equipe de pesquisa deve fazer <br>sua coleta de dados mediante um processo de amostra-<br>gem</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q28" value="A" id="q28a" onclick="verificarResposta(28, 'A')">
+          <label for="q28a">A) censitária</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q28" value="B" id="q28b" onclick="verificarResposta(28, 'B')">
+          <label for="q28b">B) aleatória simples</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q28" value="C" id="q28c" onclick="verificarResposta(28, 'C')">
+          <label for="q28c">C) por cota</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q28" value="D" id="q28d" onclick="verificarResposta(28, 'D')">
+          <label for="q28d">D) em bola de neve</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q28" value="E" id="q28e" onclick="verificarResposta(28, 'E')">
+          <label for="q28e">E) de conveniência</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-29" data-gabarito="D">
+      <div class="numero">Questão 29</div>
+      <p>Uma política pública reformou as salas de aula, o mobiliá-<br>rio e os espaços comuns de escolas da rede pública, com <br>o objetivo de aumentar a motivação e o engajamento de <br>alunos. <br>Os impactos dessa política devem ser avaliados por meio <br>de uma análise de</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q29" value="A" id="q29a" onclick="verificarResposta(29, 'A')">
+          <label for="q29a">A) custo-resultado</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q29" value="B" id="q29b" onclick="verificarResposta(29, 'B')">
+          <label for="q29b">B) custo-benefício</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q29" value="C" id="q29c" onclick="verificarResposta(29, 'C')">
+          <label for="q29c">C) custo-efetividade</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q29" value="D" id="q29d" onclick="verificarResposta(29, 'D')">
+          <label for="q29d">D) custo-eficiência</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q29" value="E" id="q29e" onclick="verificarResposta(29, 'E')">
+          <label for="q29e">E) custo-eficácia
+pcimarkpci MjgwNDowMTRjOjAxMWI6ODI2ZDpjNmRhOmFkZTA6YWEwNzpmN2Qy:TW9uLCAwNCBBdWcgMjAyNSAxODozODoxMyAtMDMwMA==
+www.pciconcursos.com.br</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-30" data-gabarito="A">
+      <div class="numero">Questão 30</div>
+      <p>O Instituto de Geografia e Estatística de determinado país, <br>interessado em estudar a expectativa de vida da popula-<br>ção desse país, levantou dados sobre a idade ao falecer <br>de uma amostra aleatória de pessoas já falecidas. O his-<br>tograma a seguir consolida a distribuição desses dados.<br>Considerando-se que a distribuição da idade ao falecer <br>não tenha se alterado entre o início da coleta dos dados <br>e o momento da análise, a fração da população que vive <br>mais do que o tempo de vida médio da população é</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q30" value="A" id="q30a" onclick="verificarResposta(30, 'A')">
+          <label for="q30a">A) menor do que 50%</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q30" value="B" id="q30b" onclick="verificarResposta(30, 'B')">
+          <label for="q30b">B) igual a 50%</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q30" value="C" id="q30c" onclick="verificarResposta(30, 'C')">
+          <label for="q30c">C) maior do que 50%, mas menor ou igual a 75%</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q30" value="D" id="q30d" onclick="verificarResposta(30, 'D')">
+          <label for="q30d">D) maior do que 75%, mas menor ou igual a 90%</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q30" value="E" id="q30e" onclick="verificarResposta(30, 'E')">
+          <label for="q30e">E) maior do que 90%
+EIXO 4</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-31" data-gabarito="E">
+      <div class="numero">Questão 31</div>
+      <p>Uma repartição pública apresentava os seguintes saldos <br>de despesas orçamentárias em 2023: Transferências <br>Correntes: R$ 100.000,00; Transferências de Capital: <br>R$ 120.000,00; Investimentos: R$ 250.000,00; Despe-<br>sas de Custeio: R$ 270.000,00; Inversões Financeiras: <br>R$ 300.000,00.<br>As despesas de capital da repartição pública em 2023 fo-<br>ram de</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q31" value="A" id="q31a" onclick="verificarResposta(31, 'A')">
+          <label for="q31a">A) R$ 370.000,00</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q31" value="B" id="q31b" onclick="verificarResposta(31, 'B')">
+          <label for="q31b">B) R$ 420.000,00</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q31" value="C" id="q31c" onclick="verificarResposta(31, 'C')">
+          <label for="q31c">C) R$ 640.000,00</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q31" value="D" id="q31d" onclick="verificarResposta(31, 'D')">
+          <label for="q31d">D) R$ 670.000,00</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q31" value="E" id="q31e" onclick="verificarResposta(31, 'E')">
+          <label for="q31e">E) R$ 940.000,00</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-32" data-gabarito="E">
+      <div class="numero">Questão 32</div>
+      <p>Em 12/04/2023, uma entidade do setor público recebeu <br>uma doação de cinquenta mil dólares de uma organização <br>internacional e manteve o valor depositado no banco em <br>uma conta em dólares. Na data do recebimento da doa-<br>ção, a cotação do dólar era de R$ 4,90. No final de abril, o <br>dólar estava cotado em R$ 5,10. Já em 31/12/2023, data <br>das demonstrações contábeis, a cotação era de R$ 4,80.<br>Nas <br>demonstrações <br>contábeis <br>da <br>entidade, <br>em <br>31/12/2023, o montante recebido em abril, e que estava <br>no banco, deve ser mensurado por</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q32" value="A" id="q32a" onclick="verificarResposta(32, 'A')">
+          <label for="q32a">A) R$ 240.000,00</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q32" value="B" id="q32b" onclick="verificarResposta(32, 'B')">
+          <label for="q32b">B) R$ 242.500,00</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q32" value="C" id="q32c" onclick="verificarResposta(32, 'C')">
+          <label for="q32c">C) R$ 245.000,00</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q32" value="D" id="q32d" onclick="verificarResposta(32, 'D')">
+          <label for="q32d">D) R$ 247.500,00</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q32" value="E" id="q32e" onclick="verificarResposta(32, 'E')">
+          <label for="q32e">E) R$ 255.000,00</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-33" data-gabarito="B">
+      <div class="numero">Questão 33</div>
+      <p>Uma entidade do setor público apresentava em seu Ba-<br>lanço Patrimonial, no Quadro dos Ativos e Passivos Fi-<br>nanceiros e Permanentes, dívidas fundadas. Uma parcela <br>das dívidas fundadas era classificada como Passivo Fi-<br>nanceiro, enquanto o restante era classificado como Pas-<br>sivo Permanente.<br>A parcela da dívida fundada classificada como Passivo <br>Financeiro</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q33" value="A" id="q33a" onclick="verificarResposta(33, 'A')">
+          <label for="q33a">A) depende de autorização legislativa para amortização 
+ou resgate.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q33" value="B" id="q33b" onclick="verificarResposta(33, 'B')">
+          <label for="q33b">B) é devida a entidades que não são consideradas par-
+tes relacionadas.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q33" value="C" id="q33c" onclick="verificarResposta(33, 'C')">
+          <label for="q33c">C) foi utilizada para financiar projetos de curto prazo.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q33" value="D" id="q33d" onclick="verificarResposta(33, 'D')">
+          <label for="q33d">D) tem como contrapartida ativos classificados como fi-
+nanceiros.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q33" value="E" id="q33e" onclick="verificarResposta(33, 'E')">
+          <label for="q33e">E) teve execução orçamentária iniciada e está pendente 
+de pagamento.</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-34" data-gabarito="B">
+      <div class="numero">Questão 34</div>
+      <p>De acordo com a Lei de Responsabilidade Fiscal, é veda-<br>da a aplicação da receita de capital derivada da alienação <br>de bens e direitos que integram o patrimônio público para <br>o financiamento de despesa corrente, salvo se destinada <br>por lei</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q34" value="A" id="q34a" onclick="verificarResposta(34, 'A')">
+          <label for="q34a">A) à abertura de créditos adicionais extraordinários</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q34" value="B" id="q34b" onclick="verificarResposta(34, 'B')">
+          <label for="q34b">B) à compra de vacinas em épocas de epidemias</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q34" value="C" id="q34c" onclick="verificarResposta(34, 'C')">
+          <label for="q34c">C) a despesas essenciais no primeiro ano de mandato do 
+Presidente, Governador ou Prefeito Municipal</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q34" value="D" id="q34d" onclick="verificarResposta(34, 'D')">
+          <label for="q34d">D) ao reforço da folha de pagamento de serviços conside-
+rados essenciais</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q34" value="E" id="q34e" onclick="verificarResposta(34, 'E')">
+          <label for="q34e">E) aos regimes de previdência social, geral e próprio dos 
+servidores públicos
+pcimarkpci MjgwNDowMTRjOjAxMWI6ODI2ZDpjNmRhOmFkZTA6YWEwNzpmN2Qy:TW9uLCAwNCBBdWcgMjAyNSAxODozODoxMyAtMDMwMA==
+www.pciconcursos.com.br</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-35" data-gabarito="C">
+      <div class="numero">Questão 39</div>
+      <p>A execução orçamentária poderá processar-se mediante <br>a descentralização de créditos. As dotações descentrali-<br>zadas serão empregadas obrigatória e integralmente na <br>consecução do objeto previsto pelo programa de trabalho <br>pertinente, respeitada fielmente a classificação funcional <br>programática. <br>As empresas públicas federais que não integrarem os or-<br>çamentos fiscal e da seguridade social, mas que execu-<br>tarem as atividades de agente financeiro governamental,</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q35" value="A" id="q35a" onclick="verificarResposta(35, 'A')">
+          <label for="q35a">A) poderão receber créditos em descentralização, via-
+bilizando a consecução de objetivos previstos na lei 
+orçamentária.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q35" value="B" id="q35b" onclick="verificarResposta(35, 'B')">
+          <label for="q35b">B) poderão receber créditos em descentralização, invia-
+bilizando a consecução de objetivos previstos na lei 
+orçamentária.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q35" value="C" id="q35c" onclick="verificarResposta(35, 'C')">
+          <label for="q35c">C) poderão ou não receber créditos em descentraliza-
+ção, a depender do lobby no Congresso e do ano or-
+çamentário.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q35" value="D" id="q35d" onclick="verificarResposta(35, 'D')">
+          <label for="q35d">D) não poderão receber créditos em descentralização, 
+viabilizando a consecução de objetivos previstos na 
+lei orçamentária.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q35" value="E" id="q35e" onclick="verificarResposta(35, 'E')">
+          <label for="q35e">E) não poderão receber créditos em descentralização, 
+inviabilizando a consecução de objetivos previstos na 
+lei orçamentária.</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-36" data-gabarito="D">
+      <div class="numero">Questão 40</div>
+      <p>Quando um contrato é extinto decorrente de culpa exclu-<br>siva da Administração, o contratado terá direito a</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q36" value="A" id="q36a" onclick="verificarResposta(36, 'A')">
+          <label for="q36a">A) pagamento pelo custo de mobilização.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q36" value="B" id="q36b" onclick="verificarResposta(36, 'B')">
+          <label for="q36b">B) pagamento pro rata pelo tempo entre a extinção do 
+contrato e o seu término programado.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q36" value="C" id="q36c" onclick="verificarResposta(36, 'C')">
+          <label for="q36c">C) devolução em dobro da garantia a título de indenização.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q36" value="D" id="q36d" onclick="verificarResposta(36, 'D')">
+          <label for="q36d">D) pagamento pelo custo de desmobilização.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q36" value="E" id="q36e" onclick="verificarResposta(36, 'E')">
+          <label for="q36e">E) devolução dos encargos trabalhistas.
+EIXO 5</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-37" data-gabarito="A">
+      <div class="numero">Questão 41</div>
+      <p>De acordo com a Lei Geral de Proteção de Dados Pesso-<br>ais, com vistas à execução de políticas públicas, à presta-<br>ção de serviços públicos, à descentralização da atividade <br>pública e à disseminação e ao acesso das informações <br>pelo público em geral, os dados deverão ser mantidos em <br>formato interoperável e estruturado para o</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q37" value="A" id="q37a" onclick="verificarResposta(37, 'A')">
+          <label for="q37a">A) uso compartilhado</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q37" value="B" id="q37b" onclick="verificarResposta(37, 'B')">
+          <label for="q37b">B) controle de segurança</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q37" value="C" id="q37c" onclick="verificarResposta(37, 'C')">
+          <label for="q37c">C) direito de acesso</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q37" value="D" id="q37d" onclick="verificarResposta(37, 'D')">
+          <label for="q37d">D) tratamento dos dados</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q37" value="E" id="q37e" onclick="verificarResposta(37, 'E')">
+          <label for="q37e">E) banco de dados</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-38" data-gabarito="D">
+      <div class="numero">Questão 35</div>
+      <p>Em uma entidade do setor público, as receitas com im-<br>postos e as receitas com a alienação de bens são classi-<br>ficadas, respectivamente, como</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q38" value="A" id="q38a" onclick="verificarResposta(38, 'A')">
+          <label for="q38a">A) correntes e correntes</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q38" value="B" id="q38b" onclick="verificarResposta(38, 'B')">
+          <label for="q38b">B) correntes e de capital</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q38" value="C" id="q38c" onclick="verificarResposta(38, 'C')">
+          <label for="q38c">C) de capital e de capital</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q38" value="D" id="q38d" onclick="verificarResposta(38, 'D')">
+          <label for="q38d">D) de capital e correntes</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q38" value="E" id="q38e" onclick="verificarResposta(38, 'E')">
+          <label for="q38e">E) de capital e patrimonial</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-39" data-gabarito="A">
+      <div class="numero">Questão 36</div>
+      <p>O portal da Câmara dos Deputados define o orçamento <br>impositivo como um novo princípio orçamentário a ser ob-<br>servado.<br>O orçamento impositivo</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q39" value="A" id="q39a" onclick="verificarResposta(39, 'A')">
+          <label for="q39a">A) é uma autorização para gastar, é uma forma mera-
+mente autorizativa.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q39" value="B" id="q39b" onclick="verificarResposta(39, 'B')">
+          <label for="q39b">B) define o dever de execução das programações orça-
+mentárias.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q39" value="C" id="q39c" onclick="verificarResposta(39, 'C')">
+          <label for="q39c">C) aplica-se apenas às chamadas despesas obrigatórias.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q39" value="D" id="q39d" onclick="verificarResposta(39, 'D')">
+          <label for="q39d">D) amplia o espaço para o contingenciamento de despe-
+sas por parte do Poder Executivo.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q39" value="E" id="q39e" onclick="verificarResposta(39, 'E')">
+          <label for="q39e">E) reduz a rigidez do orçamento público.</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-40" data-gabarito="D">
+      <div class="numero">Questão 37</div>
+      <p>Dentre as funções/atribuições econômicas clássicas do <br>Estado que possuem reflexos sobre o orçamento público, <br>verifica-se a função alocativa.<br>Essa função atua</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q40" value="A" id="q40a" onclick="verificarResposta(40, 'A')">
+          <label for="q40a">A) na política monetária.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q40" value="B" id="q40b" onclick="verificarResposta(40, 'B')">
+          <label for="q40b">B) no nível geral de preços.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q40" value="C" id="q40c" onclick="verificarResposta(40, 'C')">
+          <label for="q40c">C) nas falhas de mercado.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q40" value="D" id="q40d" onclick="verificarResposta(40, 'D')">
+          <label for="q40d">D) nas alterações da alíquota tributária.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q40" value="E" id="q40e" onclick="verificarResposta(40, 'E')">
+          <label for="q40e">E) nas obras públicas que visam absorver parcelas de-
+sempregadas de mão de obra.</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-41" data-gabarito="A">
+      <div class="numero">Questão 38</div>
+      <p>Dentre os orçamentos que compõem a Lei Orçamentária <br>Anual (LOA), verifica-se o Orçamento de Investimento das <br>Estatais.<br>Nessa peça orçamentária,</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q41" value="A" id="q41a" onclick="verificarResposta(41, 'A')">
+          <label for="q41a">A) estão listados os valores das empresas estatais 
+dependentes e independentes.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q41" value="B" id="q41b" onclick="verificarResposta(41, 'B')">
+          <label for="q41b">B) estão também listadas as receitas e despesas operacio-
+nais que serão submetidas a apreciação do legislativo.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q41" value="C" id="q41c" onclick="verificarResposta(41, 'C')">
+          <label for="q41c">C) são listados os investimentos cujas programações 
+constam integralmente do Orçamento Fiscal e da 
+Seguridade Social.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q41" value="D" id="q41d" onclick="verificarResposta(41, 'D')">
+          <label for="q41d">D) são listados os investimentos que são suportados ou 
+que recebem recurso do orçamento fiscal.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q41" value="E" id="q41e" onclick="verificarResposta(41, 'E')">
+          <label for="q41e">E) são listados os investimentos relacionados às 
+aquisições de bens componentes do ativo circulante, 
+que envolvem arrendamento mercantil e às benfeito-
+rias realizadas em bens da União.
+pcimarkpci MjgwNDowMTRjOjAxMWI6ODI2ZDpjNmRhOmFkZTA6YWEwNzpmN2Qy:TW9uLCAwNCBBdWcgMjAyNSAxODozODoxMyAtMDMwMA==
+www.pciconcursos.com.br</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-42" data-gabarito="B">
+      <div class="numero">Questão 42</div>
+      <p>Os documentos arquivísticos caracterizam-se por regis-<br>trarem e apoiarem as atividades do órgão ou entidade, <br>servindo de evidência dessas atividades, bem como de <br>fonte de informação para a pesquisa, e para assegurar os <br>direitos dos cidadãos.<br>Para padronizar a comunicação no universo dos repositó-<br>rios arquivísticos digitais confiáveis, o Conselho Nacional <br>de Arquivos definiu os conceitos de alguns termos. Rela-<br>cione esses termos, com suas respectivas características <br>apresentadas a seguir.<br>I	 -	Confiabilidade<br>II	 -	Confidenciali-<br>dade<br>III	-	Conversão<br>IV	-	Migração<br>P	 -	Técnica de migração que <br>pode se configurar de diver-<br>sas formas.<br>Q	-	Propriedade de estar acessí-<br>vel e utilizável sob demanda <br>por uma entidade autorizada.<br>R	 -	Propriedade de certos dados <br>ou informações que não po-<br>dem ser disponibilizadas ou <br>divulgadas sem autorização <br>para pessoas, entidades ou <br>processos.<br>S	 -	Credibilidade de um docu-<br>mento arquivístico enquanto <br>afirmação de um fato.<br>T	 -	Conjunto de procedimentos <br>e técnicas para assegurar a <br>capacidade de os objetos di-<br>gitais serem acessados face <br>às mudanças tecnológicas.<br>As associações corretas são:</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q42" value="A" id="q42a" onclick="verificarResposta(42, 'A')">
+          <label for="q42a">A) I	 -	 R	,	 II	 -	 T		,	 III	-	 P	 ,	IV	 -	 S</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q42" value="B" id="q42b" onclick="verificarResposta(42, 'B')">
+          <label for="q42b">B) I	 -	 R	,	 II	 -	 T		,	 III	-	 Q	,	IV	 -	 S</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q42" value="C" id="q42c" onclick="verificarResposta(42, 'C')">
+          <label for="q42c">C) I	 -	 R	,	 II	 -	 T		,	 III	-	 S	 ,	IV	 -	 Q</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q42" value="D" id="q42d" onclick="verificarResposta(42, 'D')">
+          <label for="q42d">D) I	 -	 S	 ,	 II	 -	 R	,	 III	-	 P	 ,	IV	 -	 T</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q42" value="E" id="q42e" onclick="verificarResposta(42, 'E')">
+          <label for="q42e">E) I  -  T  ,  II  -  R ,  III -  Q , IV  -  P</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-43" data-gabarito="C">
+      <div class="numero">Questão 43</div>
+      <p>Para averiguar o valor primário, é preciso verificar se o <br>documento é necessário para o cumprimento das atribui-<br>ções e para o desempenho das funções da entidade pro-<br>dutora/acumuladora.<br>Nesse contexto, o valor fiscal é aquele que</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q43" value="A" id="q43a" onclick="verificarResposta(43, 'A')">
+          <label for="q43a">A) figura nos documentos ligados a operações financei-
+ras e à comprovação de receita e despesa, geradas 
+para atender a exigências governamentais.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q43" value="B" id="q43b" onclick="verificarResposta(43, 'B')">
+          <label for="q43b">B) envolve direitos e deveres do cidadão para com o Es-
+tado e vice-versa, regulamenta as relações internas e 
+externas do órgão.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q43" value="C" id="q43c" onclick="verificarResposta(43, 'C')">
+          <label for="q43c">C) está ligado à política administrativa, à história do ór-
+gão, aos processos por ele gerados.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q43" value="D" id="q43d" onclick="verificarResposta(43, 'D')">
+          <label for="q43d">D) representa a consecução das atividades correntes do 
+órgão, tais como planos, programas e relatórios.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q43" value="E" id="q43e" onclick="verificarResposta(43, 'E')">
+          <label for="q43e">E) está relacionado aos direitos pessoais, atos adminis-
+trativos, organização e desenvolvimento da instituição.</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-44" data-gabarito="B">
+      <div class="numero">Questão 44</div>
+      <p>A comunicação de políticas públicas pode ser planejada <br>estrategicamente para provocar ou inibir a discussão so-<br>bre determinado assunto na sociedade. <br>Geralmente, uma chamada pode ser planejada estrategi-<br>camente quando</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q44" value="A" id="q44a" onclick="verificarResposta(44, 'A')">
+          <label for="q44a">A) catástrofes ambientais provocam mobilização da po-
+pulação.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q44" value="B" id="q44b" onclick="verificarResposta(44, 'B')">
+          <label for="q44b">B) mudanças econômicas estão em jogo e afetam a so-
+ciedade.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q44" value="C" id="q44c" onclick="verificarResposta(44, 'C')">
+          <label for="q44c">C) escândalos políticos desencadeiam circulação de opi-
+niões.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q44" value="D" id="q44d" onclick="verificarResposta(44, 'D')">
+          <label for="q44d">D) mortes de figuras públicas sensibilizam e emocionam 
+as pessoas.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q44" value="E" id="q44e" onclick="verificarResposta(44, 'E')">
+          <label for="q44e">E) tragédias sociais despertam interesse e exigem ação 
+dos poderes.</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-45" data-gabarito="A">
+      <div class="numero">Questão 45</div>
+      <p>A mídia, ou seja, o conjunto de entidades de “comunica-<br>ção social”, representa uma forma de poder nas socieda-<br>des de massa e possui papéis muito importantes, dentre <br>os quais se destaca o de</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q45" value="A" id="q45a" onclick="verificarResposta(45, 'A')">
+          <label for="q45a">A) determinar a implementação de políticas públicas do 
+governo.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q45" value="B" id="q45b" onclick="verificarResposta(45, 'B')">
+          <label for="q45b">B) julgar e punir cidadãos que cometam infrações na so-
+ciedade.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q45" value="C" id="q45c" onclick="verificarResposta(45, 'C')">
+          <label for="q45c">C) influenciar a formação das agendas públicas e gover-
+namentais.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q45" value="D" id="q45d" onclick="verificarResposta(45, 'D')">
+          <label for="q45d">D) ser porta-voz do governo e defender suas decisões e 
+ações.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q45" value="E" id="q45e" onclick="verificarResposta(45, 'E')">
+          <label for="q45e">E) impedir relações sociais entre grupos os mais diversos.</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-46" data-gabarito="A">
+      <div class="numero">Questão 46</div>
+      <p>Em 2012, o Gabinete de Segurança Institucional da Pre-<br>sidência da República divulgou uma norma complemen-<br>tar com diretrizes para o uso seguro das redes sociais na <br>Administração Pública Federal. No documento, reconhe-<br>cia-se o crescimento do uso das redes sociais por parte <br>de órgãos e entidades da Administração Pública como <br>ferramenta para se aproximarem ainda mais do cidadão <br>brasileiro e prestarem atendimento e serviços públicos de <br>forma mais ágil e transparente. <br>A partir desse momento, ficou evidente que o governo <br>brasileiro tomou a decisão de adotar uma comunicação <br>institucional</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q46" value="A" id="q46a" onclick="verificarResposta(46, 'A')">
+          <label for="q46a">A) sem caráter educativo, informativo ou de orientação 
+social</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q46" value="B" id="q46b" onclick="verificarResposta(46, 'B')">
+          <label for="q46b">B) com foco maior no uso estratégico de mídias sociais</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q46" value="C" id="q46c" onclick="verificarResposta(46, 'C')">
+          <label for="q46c">C) voltada para o público jovem e com linguagem infor-
+mal</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q46" value="D" id="q46d" onclick="verificarResposta(46, 'D')">
+          <label for="q46d">D) nas mídias sociais, sem necessidade de recursos fi-
+nanceiros</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q46" value="E" id="q46e" onclick="verificarResposta(46, 'E')">
+          <label for="q46e">E) nas mídias sociais, sem necessidade de contratação 
+de profissionais 
+pcimarkpci MjgwNDowMTRjOjAxMWI6ODI2ZDpjNmRhOmFkZTA6YWEwNzpmN2Qy:TW9uLCAwNCBBdWcgMjAyNSAxODozODoxMyAtMDMwMA==
+www.pciconcursos.com.br</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-47" data-gabarito="B">
+      <div class="numero">Questão 47</div>
+      <p>O surgimento do documento nato-digital e as novas for-<br>mas de armazenamento provocaram reconfigurações na <br>organização de arquivos. <br>Nessa nova realidade e com foco na informação orgânico-<br>-funcional, é imprescindível preservar</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q47" value="A" id="q47a" onclick="verificarResposta(47, 'A')">
+          <label for="q47a">A) o conteúdo do documento e o contexto em que está 
+inserido.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q47" value="B" id="q47b" onclick="verificarResposta(47, 'B')">
+          <label for="q47b">B) acesso restrito aos arquivos para sua preservação.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q47" value="C" id="q47c" onclick="verificarResposta(47, 'C')">
+          <label for="q47c">C) uma equipe preparada para cursos de capacitação no 
+uso de arquivos.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q47" value="D" id="q47d" onclick="verificarResposta(47, 'D')">
+          <label for="q47d">D) representações da informação em suporte físico e di-
+gital.</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q47" value="E" id="q47e" onclick="verificarResposta(47, 'E')">
+          <label for="q47e">E) formas de reprodução do documento nato-digital em 
+meio físico.</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-48" data-gabarito="C">
+      <div class="numero">Questão 48</div>
+      <p>Na comunicação pública, a publicidade de ordem legal e <br>a comunicação institucional têm um papel importante por-<br>que tornam visíveis as(os)</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q48" value="A" id="q48a" onclick="verificarResposta(48, 'A')">
+          <label for="q48a">A) ações dos Poderes Executivo, Legislativo e Judiciário</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q48" value="B" id="q48b" onclick="verificarResposta(48, 'B')">
+          <label for="q48b">B) intervenções de grandes empresários em decisões 
+políticas</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q48" value="C" id="q48c" onclick="verificarResposta(48, 'C')">
+          <label for="q48c">C) aparatos midiáticos por trás de decisões governamentais</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q48" value="D" id="q48d" onclick="verificarResposta(48, 'D')">
+          <label for="q48d">D) interesses particulares de pessoas em cargos públicos</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q48" value="E" id="q48e" onclick="verificarResposta(48, 'E')">
+          <label for="q48e">E) elementos de formação da esfera de visibilidade pública</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-49" data-gabarito="NAN">
+      <div class="numero">Questão 49</div>
+      <p>No caso de documentos inseridos em um Sistema Ar-<br>quivístico de Gestão de Documentos – SIGAD que são, <br>porém, sigilosos, de acordo com a legislação vigente, é <br>necessário que sejam atribuídas restrições de acesso.<br>Essa atribuição de restrição de acesso deve ser feita no <br>momento do(a)</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q49" value="A" id="q49a" onclick="verificarResposta(49, 'A')">
+          <label for="q49a">A) armazenamento</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q49" value="B" id="q49b" onclick="verificarResposta(49, 'B')">
+          <label for="q49b">B) captura</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q49" value="C" id="q49c" onclick="verificarResposta(49, 'C')">
+          <label for="q49c">C) localização</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q49" value="D" id="q49d" onclick="verificarResposta(49, 'D')">
+          <label for="q49d">D) preservação</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q49" value="E" id="q49e" onclick="verificarResposta(49, 'E')">
+          <label for="q49e">E) tramitação</label>
+        </div>
+        
+    </div>
+    
+    <div class="questao-container" id="questao-50" data-gabarito="NAN">
+      <div class="numero">Questão 50</div>
+      <p>Um grupo de cidadãos realiza reunião na qual decide par-<br>ticipar mais ativamente da vida política da comunidade <br>onde vive. Dentre as várias tarefas que buscam empreen-<br>der, uma das primeiras consiste em apurar o destino das <br>verbas públicas vinculadas a obras nos municípios onde o <br>grupo reside. Nos termos da Lei no 12.527/2011, existem <br>várias diretrizes que devem ser seguidas para assegurar <br>o direito fundamental de acesso às informações.<br>Uma dessas diretrizes está relacionada ao desenvolvi-<br>mento do controle</p>
+      
+        <div class="alternativa" data-letra="A">
+          <input type="radio" name="q50" value="A" id="q50a" onclick="verificarResposta(50, 'A')">
+          <label for="q50a">A) total da administração pública</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="B">
+          <input type="radio" name="q50" value="B" id="q50b" onclick="verificarResposta(50, 'B')">
+          <label for="q50b">B) local da administração pública</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="C">
+          <input type="radio" name="q50" value="C" id="q50c" onclick="verificarResposta(50, 'C')">
+          <label for="q50c">C) social da administração pública</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="D">
+          <input type="radio" name="q50" value="D" id="q50d" onclick="verificarResposta(50, 'D')">
+          <label for="q50d">D) midiático da administração pública</label>
+        </div>
+        
+      
+        <div class="alternativa" data-letra="E">
+          <input type="radio" name="q50" value="E" id="q50e" onclick="verificarResposta(50, 'E')">
+          <label for="q50e">E) partidário da administração pública
+RASCUNHO</label>
+        </div>
+        
+    </div>
+    
+</div>
+
+<div class="botoes">
+  <button onclick="anterior()">Anterior</button>
+  <button onclick="proxima()">Próxima</button>
+  <button onclick="mostrarPontuacao()">Ver Pontuação</button>
+</div>
+
+<div id="resultado"></div>
+
+<script>
+  let questoes = document.querySelectorAll(".questao-container");
+  let atual = 0;
+  let respostas = {}; // Guarda as respostas
+
+  function mostrarQuestao(index) {
+    questoes.forEach((q, i) => {
+      q.classList.toggle("active", i === index);
+    });
+  }
+
+  function proxima() {
+    if (atual < questoes.length - 1) {
+      atual++;
+      mostrarQuestao(atual);
+    }
+  }
+
+  function anterior() {
+    if (atual > 0) {
+      atual--;
+      mostrarQuestao(atual);
+    }
+  }
+
+  function verificarResposta(index, letra) {
+    const questao = document.getElementById("questao-" + index);
+    const gabarito = questao.getAttribute("data-gabarito");
+    const alternativas = questao.querySelectorAll(".alternativa");
+
+    // Impede mudança depois de responder
+    alternativas.forEach(alt => {
+      alt.querySelector("input").disabled = true;
+    });
+
+    // Salva a resposta
+    respostas[index] = letra;
+
+    if (letra === gabarito) {
+      const correta = questao.querySelector(`.alternativa[data-letra="${letra}"]`);
+      correta.classList.add("certa");
+    } else {
+      const errada = questao.querySelector(`.alternativa[data-letra="${letra}"]`);
+      const correta = questao.querySelector(`.alternativa[data-letra="${gabarito}"]`);
+      errada.classList.add("errada");
+      correta.classList.add("certa");
+    }
+  }
+
+  function mostrarPontuacao() {
+    let acertos = 0;
+
+    questoes.forEach((q, index) => {
+      let gabarito = q.getAttribute("data-gabarito");
+      let resposta = respostas[index];
+
+      if (resposta === gabarito) {
+        acertos++;
+      }
+    });
+
+    let total = questoes.length;
+    let percentual = ((acertos / total) * 100).toFixed(2);
+
+    document.getElementById("resultado").innerText = `✅ Você acertou ${acertos} de ${total} questões (${percentual}%)`;
+  }
+
+  mostrarQuestao(atual);
+</script>
+
+</body>
+</html>
